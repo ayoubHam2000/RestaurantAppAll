@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:background="@drawable/darkbackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/radius_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="35dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/adminImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:padding="30dp"
+            app:srcCompat="@drawable/admin" />
+
+        <Button
+            android:id="@+id/adminButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/homeButton"
+            android:textColor="@android:color/white"
+            android:text="Admin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/radius_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="35dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ChefImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:padding="30dp"
+            app:srcCompat="@drawable/chef" />
+
+        <Button
+            android:id="@+id/chefButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/homeButton"
+            android:textColor="@android:color/white"
+            android:text="Chef" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/radius_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="35dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/userImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:padding="30dp"
+            app:srcCompat="@drawable/user" />
+
+        <Button
+            android:id="@+id/userButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/homeButton"
+            android:textColor="@android:color/white"
+            android:text="User" />
+
+    </LinearLayout>
+</LinearLayout>
